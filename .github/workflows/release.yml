@@ -13,7 +13,7 @@ name: release-test
 on:
   push:
     tags:
-      - "v*-beta"
+      - "v0.0.4-beta"
 jobs:
   goreleaser:
     runs-on: ubuntu-latest
