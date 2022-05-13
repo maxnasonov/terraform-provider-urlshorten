@@ -21,6 +21,7 @@ func dataSourceShorthenURL() *schema.Resource {
 			"new_url": &schema.Schema{
 				Type:     schema.TypeString,
 				Optional: true,
+				Computed: true,
 			},
 		},
 	}
